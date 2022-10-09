@@ -1,0 +1,14 @@
+{
+  "name": "space-cast-server",
+  "version": "0.0.0",
+  "description": "This is the server of the space-cast of the TV Show Midnight Gospel",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch db.json"
+  },
+  "keywords": ["json-server", "midnight gospel", "javascript"],
+  "author": "Friosn",
+  "license": "ISC"
+}
+
+

@@ -1,0 +1,92 @@
+
+{
+    "characters" : [
+        { 
+          "id" : 1 ,
+          "characterName" :  "Clancy Gilroy",
+          "status" : "yet alive",
+          "species" : "Human",
+          "gender" : "Male",
+          "planet" : "Alternative dimension Chromatic Ribbon",
+          "chapter" : "All of them",
+          "way-to-die" : "Simulator explosion",
+          "voice" : "Duncan Trussel",
+          "famousQuote" : "Do you mind if I interview you for my video-spacecast? It goes into space.",
+          "image" : "../space-cast/public/images/characters/clancy_gilroy.jpg",
+          "locutor-picture" : ""
+        }, 
+        { 
+          "id" : 2 ,
+          "characterName" :  "Chuck Charles",
+          "status" : "dead",
+          "species" : "Human",
+          "gender" : "Male",
+          "planet" : "Earth 4-169",
+          "chapter" : "1",
+          "way-to-die" : "Eaten by several zombos after 5 seconds of his appearence.",
+          "voice" : "Joey Diaz",
+          "famousQuote" : "Get in!",
+          "image" : "../space-cast/public/images/characters/chuck_charles.png",
+          "locutor-picture" : ""
+        }, 
+        { 
+          "id" : 3 ,
+          "characterName" :  "Glasses Man",
+          "status" : "dead",
+          "species" : "Human",
+          "gender" : "Male",
+          "planet" : "Earth 4-169",
+          "chapter" : "1",
+          "wayToDie" : "Eaten up by zombos after being cured of zombosis",
+          "voice" : "Drew Pinsky",
+          "famousQuote" : "I love being around people who help me see the world through a new pair of glasses, and you are one of these people.",
+          "image" : "../space-cast/public/images/characters/glasses_man.png",
+          "locutor-picture" : ""
+        }, 
+        { 
+          "id" : 4 ,
+          "characterName" :  "Annie",
+          "status" : "death",
+          "species" : "Deer gog",
+          "gender" : "female",
+          "planet" : "Clown Planet",
+          "universe" : "",
+          "chapter" : "2",
+          "way-to-die" : "Crushed by clown meat industry.",
+          "voice" : "Anne Lamot",
+          "famousQuote" : "You might get a better seat in heaven, like near the dessert table, or near the cheesses. And the bagguetes!",
+          "image" : "../space-cast/public/images/characters/annie.jpg",
+          "locutor-picture" : ""
+        } 
+    
+    
+    ],
+    "planets": [
+      { 
+        "id": 1,
+        "planetName": "Earth 4-169", 
+        "universe": 1 ,
+        "theme" : "Drug education",
+        "problematic" : "Marijuana protests",
+        "apocalypse" : "Zombie attack",
+        "moral" : "It feels good to be a zombie",
+        "chapter" : "1",
+        "image" : "../space-cast/public/images/planets/planet_4-169_first.jpg"
+    },
+    { 
+        "id": 2,
+        "planetName": "Clown Planet", 
+        "universe": 1 ,
+        "theme" : "Death acceptance",
+        "problematic" : "War between the race of clown-bugs and space-flies.",
+        "apocalypse" : "World eaten up by the worms of a space-fly species.",
+        "moral" : "Accepting death and talking about it in a natural way can provide peace and a happier perception of life.",
+        "chapter" : "2",
+        "image" : "../space-cast/public/images/planets/clown_planet_second.jpg"
+    }
+    
+],
+   
+    
+    "profile": { "name": "typicode" }
+  }
