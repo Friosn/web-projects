@@ -71,7 +71,7 @@
         "apocalypse" : "Zombie attack",
         "moral" : "It feels good to be a zombie",
         "chapter" : "1",
-        "image" : "../../public/images/planets/planet_4-169_first.jpg"
+        "image" : "https:///res-console.cloudinary.com/dfrmvbvdc/thumbnails/transform/v1/image/upload//v1665409454/TWlkbmlnaHQgR29zcGVsL3BsYW5ldHMvcGxhbmV0XzQtMTY5X2ZpcnN0X3JrcXZ0eg==/drilldown"
     },
     { 
         "id": "2",
@@ -82,7 +82,7 @@
         "apocalypse" : "World eaten up by the worms of a space-fly species.",
         "moral" : "Accepting death and talking about it in a natural way can provide peace and a happier perception of life.",
         "chapter" : "2",
-        "image" : "../../public/images/planets/clown_planet_second.jpg"
+        "image" : "https:///res-console.cloudinary.com/dfrmvbvdc/thumbnails/transform/v1/image/upload//v1665409448/TWlkbmlnaHQgR29zcGVsL3BsYW5ldHMvY2xvd25fcGxhbmV0X3NlY29uZF91bmwzcHg=/drilldown"
     }
     
   ]

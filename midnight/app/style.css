@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;300;400;500&family=Roboto:wght@100;300;400&family=Ubuntu:ital,wght@0,300;0,400;0,700;1,400&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;300;400;500&family=Roboto:wght@100;300;400&family=Ubuntu:ital,wght@0,300;0,400;0,700;1,400&family=VT323&display=swap');
+
+
+@font-face {
+    font-family: "Gospel";
+    src: url(./public/fonts/IBM_Plex_Sans/IBMPlexSans-SemiBold.ttf);
+    font-display: block;
+}
+
+@font-face {
+    font-family: "Midnight";
+    src: url(./public/fonts/VT323/VT323-Regular.ttf);
+    font-display: block;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style-type: none;
+}
+
+:root {
+    --borderText : #4bdfdf;
+    --middleBlue : #3dabdb;
+    --background: #1f4d6a;
+    --darkerGreen : #6ef9a3;
+    --contrast : #f2df4f;
+    --blacky : #2e0612;
+}
+
+
+body {
+  background-color: var(--background);
+  color: var(--primary);
+  font-family: "VT323", monospace;
+}
+
+.light {
+  background-color: var(--primary);
+  color: var(--background);
+}
+
+h1,
+h2,
+h3,
+a {
+    font-family: 'IBM Plex Sans', sans-serif;
+  color: var(--contrast);
+  letter-spacing: 0.1rem;
+  
+}
+
+button{
+  all:unset;
+  padding: 0.3rem 0.8rem;
+  background-color: var(--background);
+  border: 1px solid var(--darkerGreen);
+  color: var(--primary);
+  cursor: pointer
+}

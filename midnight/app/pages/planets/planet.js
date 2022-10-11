@@ -1,6 +1,5 @@
 import { getData } from "../../services/service";
 import "./planetStyle.css";
-/* import { pageCleaner } from "../../utils/pageCleaner";  THIS DOES NOT WORK*/
 
 export const initPlanet = () => {
   getPlanet();
@@ -24,22 +23,20 @@ const mapInfoPlanet = (listPlanets) => {
   });
   templatePlanet(mapedPlanets);
 };
-let lvalue = document.getElementById("fade-in").innerHTML;
-let textLength = lvalue.length();
 
 const templatePlanet = (planets) => {
   let mainApp = document.querySelector("#app");
   mainApp.innerHTML = ``;
   for (const planet of planets) {
     mainApp.innerHTML += `
-      <div class="planet">
-          <img src="${planet.image}">
-          <h3>This is ${planet.name}</h3>
-          <p>This is the chapter ${planet.chapter} of the TV show, and it builds up about the theme of: ${planet.theme}</p>
-          <p>The moral of this chapter is: ${planet.moral}</p>
-          <p>Apocalyptic scene and final of the world: ${planet.apocalypse}</p>
-          
-      </div>
-      `;
+        <div class="planet">
+            <img src="${planet.image}">
+            <h3>This is ${planet.name}</h3>
+            <p>This is the chapter ${planet.chapter} of the TV show, and it builds up about the theme of: ${planet.theme}</p>
+            <p>The moral of this chapter is: ${planet.moral}</p>
+            <p>Apocalyptic scene and final of the world: ${planet.apocalypse}</p>
+            
+        </div>
+        `;
   }
 };

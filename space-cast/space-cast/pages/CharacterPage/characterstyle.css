@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+@font-face {
+ font-family: 'Press Start 2P', cursive;
+ src: url("./public/fonts/Press_Start_2P/PressStart2P-Regular.ttf");
+ font-weight: normal;
+ font-style: normal;
+}
+
+:root {
+  --clearColor : #97c4e5;
+  --clearGreen : #b3f5da;
+  --bordery: #4bdfdf;
+  --insideBord : #1f4d6a;
+  --blacky : #2e0612;
+
+}
+
+
+
+
+ 

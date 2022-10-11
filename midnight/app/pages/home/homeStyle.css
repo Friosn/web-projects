@@ -1,8 +1,10 @@
+
 :root {
-    --clearColor : #97c4e5;
-    --clearGreen : #b3f5da;
-    --darkerBue : #6d87e0;
+    --borderText : #4bdfdf;
+    --middleBlue : #3dabdb;
+    --background: #1f4d6a;
     --darkerGreen : #6ef9a3;
+    --contrast : #f2df4f;
     --blacky : #2e0612;
   }
 * {
@@ -38,8 +40,18 @@
     
   }
   
+  div {
+    margin: 0.5rem; 
+    padding: 0.3rem;    
+  }
 
-  
+
+
+  p {
+    font-family: 'VT323', monospace;
+    color: var(--borderText);
+    background-color: var(--background);
+  }
       
   
   div > div > .right {
@@ -64,6 +76,8 @@
     position: relative;
     overflow: hidden;
     text-shadow: #6d87e0;
+    display: flex;
+    size: 64px;
    /* ie8 */
   }
   
@@ -91,4 +105,3 @@
   .btn:hover:before {
     left: 100%;
   }
- 
