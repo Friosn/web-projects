@@ -1,5 +1,15 @@
-footer{
-    height: 120vh;
+:root {
+    --borderText : #4bdfdf;
+    --middleBlue : #3dabdb;
+    --background: #1f4d6a;
+    --darkerGreen : #6ef9a3;
+    --contrast : #f2df4f;
+    --blacky : #2e0612;
+    --clancyPurpl : #d534b7;
+    --multiverseNet : #fa3496;
+  }
+  footer{
+    min-height: 8.5vh;
     display: flex;
     justify-content: center;
     align-items: center;

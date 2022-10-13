@@ -1,0 +1,79 @@
+:root {
+    --borderText : #4bdfdf;
+    --middleBlue : #3dabdb;
+    --background: #1f4d6a;
+    --darkerGreen : #6ef9a3;
+    --contrast : #f2df4f;
+    --blacky : #2e0612;
+    --clancyPurpl : #d534b7;
+    --multiverseNet : #fa3496;
+  }
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  #life {
+    background-image: url("https://j.gifs.com/K1JEpl@facebook.gif");
+    background-size: cover;
+
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    flex-wrap: wrap;
+    max-width: 100%;
+    height: auto;
+    width: auto\9; 
+    border-style: double;
+    border-color: var(--nebula);
+    border-width: 4px;
+    
+  }
+  
+  div > #life {
+    height: 85vh;
+    
+  }
+
+div > div > h2 {
+  margin: 5px;
+  padding: 1px;
+  border: 1px solid var(--darkerGreen);
+  color: wheat;
+  background-color: #1f4d6a87;
+  font-family: 'VT323', monospace;
+}
+
+div > div > span {
+  margin: 5px;
+  padding: 1px;
+  border: 1px solid var(--darkerGreen);
+  color: wheat;
+  background-color: #1f4d6a;
+  
+}
+
+
+
+p {
+  font-family: 'VT323', monospace;
+  color: var(--borderText);
+  background-color: var(--background);
+}
+    
+div {
+  justify-content: space-around;
+}
+
+
+
+
+a {
+  font-size: 1.5rem;
+  padding: 1rem 3rem;
+  color: white;
+  text-transform: uppercase;
+}
+
+

@@ -1,8 +1,37 @@
+
+:root {
+    --borderText : #4bdfdf;
+    --middleBlue : #3dabdb;
+    --background: #1f4d6a;
+    --darkerGreen : #6ef9a3;
+    --contrast : #f2df4f;
+    --blacky : #2e0612;
+    --clancyPurpl : #d534b7;
+    --multiverseNet : #fa3496;
+  }
+
+
 nav {
     display: flex;
-    height: 1vh;
+   
     justify-content: space-around;
     align-items: center;
     min-height: 3rem;
     flex-wrap: wrap;
+    
+    
+}
+
+nav > ul {
+    flex-wrap: wrap;
+    display: inline-flex;
+    align-items: center;
+}
+
+nav > ul > li > a:hover{
+    color: var(--borderText);
+}
+
+nav > ul > li > a {
+    transition:all 0.3s ease-in-out;
 }

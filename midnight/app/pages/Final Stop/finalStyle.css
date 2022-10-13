@@ -1,0 +1,47 @@
+:root {
+    --borderText : #4bdfdf;
+    --middleBlue : #3dabdb;
+    --background: #1f4d6a;
+    --darkerGreen : #6ef9a3;
+    --contrast : #f2df4f;
+    --blacky : #2e0612;
+    --clancyPurpl : #d534b7;
+    --multiverseNet : #fa3496;
+  }
+
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  #death {
+    background-image: url("../../public/images/background_homepage.png");
+    background-size: cover;
+
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    flex-wrap: wrap;
+    max-width: 100%;
+    height: auto;
+    width: auto\9; 
+    border-style: double;
+    border-color: var(--nebula);
+    border-width: 4px;
+    
+  }
+  
+  div > #death {
+    height: 85vh;
+    
+  }
+
+  div > div > i {
+    color: black;
+    background-color: #1f4d6a7d;
+    border-radius: 10%;
+    margin: 2rem;
+    text-align: center;
+  }
+  

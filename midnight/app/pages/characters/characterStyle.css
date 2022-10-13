@@ -1,7 +1,41 @@
+:root {
+  --borderText : #4bdfdf;
+  --middleBlue : #3dabdb;
+  --background: #1f4d6a;
+  --darkerGreen : #6ef9a3;
+  --contrast : #f2df4f;
+  --blacky : #2e0612;
+  --clancyPurpl : #d534b7;
+  --multiverseNet : #fa3496;
+}
+
+
+div 
+
 img {
     border-style: double;
     border-width: 10px;
     border-color: aquamarine;
+
     
   }
+  img {
+    margin-left: 2rem;
+    width:  100px;
+    height: 100px;
+    object-fit: cover;
+}
 
+div> .character {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+div > .character > i {
+  border: 1px;
+  color: #4bdfdf;
+}
+
+main {
+  background-image: url(../../public/images/nebula_background.jpg);
+}
