@@ -10,7 +10,6 @@
 }
 
 
-div 
 
 img {
     border-style: double;
@@ -29,12 +28,10 @@ img {
 div> .character {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
+  padding-top: 1rem;
 }
 
-div > .character > i {
-  border: 1px;
-  color: #4bdfdf;
-}
+
 
 main {
   background-image: url(../../public/images/nebula_background.jpg);
